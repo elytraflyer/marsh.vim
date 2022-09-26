@@ -1,6 +1,6 @@
 # <i>marsh.vim</i>
 
-A vim light colorscheme with blue and purple.
+A light colorscheme for vim with blue and purple.
 
 It supports 256 color terminals and truecolors, but using truecolors is recommended.
 
