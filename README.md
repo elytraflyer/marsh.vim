@@ -13,4 +13,3 @@ Screenshot(above is the colorscheme in 256 colors)
 ## TODO
 
 - Add lightline & airline colorscheme
-- Add highlight to escape characters

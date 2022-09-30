@@ -96,11 +96,11 @@ exe 'hi NonText guifg='s:bg3' guibg='s:bg' guifg='s:c_bg3' guibg='s:c_bg
 exe 'hi Number guifg='s:comment' ctermfg='s:c_comment
 exe 'hi Operator guifg='s:keyword' ctermfg='s:c_keyword
 exe 'hi PreProc guifg='s:keyword' ctermfg='s:c_keyword
-exe 'hi Special guifg='s:fg' ctermfg='s:c_fg
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2' ctermfg='s:c_fg2' ctermbg='s:c_bg2
 exe 'hi Statement guifg='s:keyword' gui=NONE ctermfg='s:c_keyword' cterm=NONE'
 exe 'hi StorageClass guifg='s:type' gui=italic ctermfg='s:c_type' cterm=italic'
 exe 'hi String guifg='s:str' ctermfg='s:c_str
+exe 'hi Special guifg='s:str' ctermfg='s:c_str
 exe 'hi Tag guifg='s:keyword' ctermfg='s:c_keyword
 exe 'hi Title guifg='s:fg' gui=NONE ctermfg='s:c_fg
 exe 'hi Todo guifg='s:const' gui=NONE ctermfg='s:c_const
