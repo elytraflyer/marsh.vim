@@ -28,11 +28,11 @@ let s:type = "#d162be"
 let s:var = "#5E81AC"
 let s:warning = "#f396f8"
 let s:searchbg = "#ffffff"
-let s:cursorlcbg = "#e9e8fa"
+let s:cursorlcbg = "#e3e0e0"
 let s:lnrbg = "#efeff2"
 
 " Color palette for terminal
-let s:c_bg = 255
+let s:c_bg = 254
 let s:c_fg = 236
 let s:c_fg2 = 242
 let s:c_fg3 = 244
@@ -50,8 +50,8 @@ let s:c_type = 169
 let s:c_var = 31
 let s:c_warning = 170
 let s:c_searchbg = 231
-let s:c_cursorlcbg = 254
-let s:c_lnrbg = 254
+let s:c_cursorlcbg = 253
+let s:c_lnrbg = 253
 let s:c_lnrfg = 246
 
 exe 'hi LineNr guifg='s:fg' guibg='s:lnrbg' guifg='s:fg' ctermfg='s:c_lnrfg' ctermbg='s:c_lnrbg
@@ -68,8 +68,8 @@ exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' ctermfg='s:c_fg2' ctermbg='s:c_bg
 exe 'hi Pmenu guifg='s:comment' guibg='s:bg2' ctermfg='s:c_comment' ctermbg='s:c_bg2
 exe 'hi PmenuSel guibg='s:bg3' ctermbg='s:c_bg3
 exe 'hi IncSearch guifg='s:comment' guibg='s:searchbg' ctermfg='s:c_comment' ctermbg='s:c_searchbg
-exe 'hi Search guibg='s:searchbg' gui=underline ctermbg='s:c_searchbg' cterm=underline'
-exe 'hi Visual guibg='s:searchbg' gui=underline ctermbg='s:c_searchbg' cterm=underline'
+exe 'hi Search guibg='s:searchbg' ctermbg='s:c_searchbg
+exe 'hi Visual guibg='s:searchbg' ctermbg='s:c_searchbg
 exe 'hi Directory guifg='s:warning' gui=bold ctermfg='s:c_warning' cterm=underline'
 exe 'hi Folded guifg='s:fg4' guibg='s:bg' ctermfg='s:c_fg4' ctermbg='s:c_bg
 exe 'hi WildMenu guifg='s:fg' guibg='s:bg' ctermfg='s:c_fg' ctermbg='s:c_bg
