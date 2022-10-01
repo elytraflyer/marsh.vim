@@ -67,7 +67,7 @@ exe 'hi SignColumn guifg='s:fg' guibg='s:bg' ctermfg='s:c_fg' ctermbg='s:c_bg
 exe 'hi VertSplit guifg='s:bg' guibg='s:var' ctermfg='s:c_fg' ctermbg='s:c_var
 exe 'hi MatchParen guibg='s:bg2' gui=underline ctermbg='s:c_bg2
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' ctermfg='s:c_fg2' ctermbg='s:c_bg3
-exe 'hi Pmenu guifg='s:comment' guibg='s:bg2' ctermfg='s:c_comment' ctermbg='s:c_bg2
+exe 'hi Pmenu guifg='s:bg' guibg='s:bg2' ctermfg='s:c_comment' ctermbg='s:c_bg2
 exe 'hi PmenuSel guibg='s:bg3' ctermbg='s:c_bg3
 exe 'hi IncSearch guifg='s:comment' guibg='s:searchbg' ctermfg='s:c_comment' ctermbg='s:c_searchbg
 exe 'hi Search guibg='s:searchbg' ctermbg='s:c_searchbg
