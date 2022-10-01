@@ -21,7 +21,7 @@ let s:bg4 = "#b0b6bf"
 let s:keyword = "#9d779d"
 let s:builtin = "#6ba0f5"
 let s:const = "#4c566a"
-let s:comment = "#204A87"
+let s:number = "#204A87"
 let s:func = "#5E81AC"
 let s:str = "#6fa9a8"
 let s:type = "#d162be"
@@ -30,6 +30,7 @@ let s:warning = "#f396f8"
 let s:searchbg = "#ffffff"
 let s:cursorlcbg = "#e3e0e0"
 let s:lnrbg = "#efeff2"
+let s:comment = "#9e9e9e"
 
 " Color palette for terminal
 let s:c_bg = 254
@@ -43,7 +44,8 @@ let s:c_bg4 = 248
 let s:c_keyword = 170
 let s:c_builtin = 75
 let s:c_const = 240
-let s:c_comment = 68
+let s:c_number = 68
+let s:c_comment = 247
 let s:c_func = 31
 let s:c_str = 73
 let s:c_type = 169
@@ -93,7 +95,7 @@ exe 'hi Identifier guifg='s:type' ctermfg='s:c_type
 exe 'hi Keyword guifg='s:keyword' gui=NONE ctermfg='s:c_keyword' cterm=NONE'
 exe 'hi Label guifg='s:var' ctermfg='s:c_var
 exe 'hi NonText guifg='s:bg3' guibg='s:bg' guifg='s:c_bg3' guibg='s:c_bg
-exe 'hi Number guifg='s:comment' ctermfg='s:c_comment
+exe 'hi Number guifg='s:number' ctermfg='s:c_number
 exe 'hi Operator guifg='s:keyword' ctermfg='s:c_keyword
 exe 'hi PreProc guifg='s:keyword' ctermfg='s:c_keyword
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2' ctermfg='s:c_fg2' ctermbg='s:c_bg2
