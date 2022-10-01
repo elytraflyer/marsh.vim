@@ -64,6 +64,7 @@ exe 'hi CursorColumn guibg='s:cursorlcbg' ctermbg='s:c_cursorlcbg
 exe 'hi CursorLineNr guifg='s:str' guibg='s:bg' gui=bold ctermfg='s:c_str' ctermbg='s:c_bg' cterm=bold'
 exe 'hi ColorColumn guibg='s:bg2' ctermbg='s:c_bg2
 exe 'hi SignColumn guifg='s:fg' guibg='s:bg' ctermfg='s:c_fg' ctermbg='s:c_bg
+exe 'hi FoldColumn guifg='s:fg' guibg='s:bg' ctermfg='s:c_fg' ctermbg='s:c_bg
 exe 'hi VertSplit guifg='s:bg' guibg='s:var' ctermfg='s:c_fg' ctermbg='s:c_var
 exe 'hi MatchParen guibg='s:bg2' gui=underline ctermbg='s:c_bg2
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' ctermfg='s:c_fg2' ctermbg='s:c_bg3
