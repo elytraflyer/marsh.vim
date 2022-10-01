@@ -6,9 +6,11 @@ It supports 256 color terminals and truecolors, but using truecolors is recommen
 
 ## Screenshot
 
-Screenshot(above is the colorscheme in 256 colors)
+Screenshot(with no true colors)
 
-<img src="https://i.postimg.cc/k4VF33Kx/screenshot.png"></img>
+<img src="https://i.postimg.cc/bwgsh30T/screenshot-notruecolors.png"></img>
+
+<img src="https://i.postimg.cc/RhTzHbZp/screenshot-withtruecolors.png"></img>
 
 ## TODO
 

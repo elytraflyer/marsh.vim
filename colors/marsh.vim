@@ -107,23 +107,24 @@ exe 'hi Todo guifg='s:const' gui=NONE ctermfg='s:c_const
 exe 'hi Type guifg='s:type' gui=NONE ctermfg='s:c_const
 exe 'hi Underlined gui=underline cterm=underline'
 
-" Neovim Terminal Mode
-let g:terminal_color_0 = s:bg
-let g:terminal_color_1 = s:warning
-let g:terminal_color_2 = s:keyword
-let g:terminal_color_3 = s:bg4
-let g:terminal_color_4 = s:var
-let g:terminal_color_5 = s:builtin
-let g:terminal_color_6 = s:fg3
-let g:terminal_color_7 = s:str
-let g:terminal_color_8 = s:bg2
-let g:terminal_color_9 = s:warning
-let g:terminal_color_10 = s:fg2
-let g:terminal_color_11 = s:var
-let g:terminal_color_12 = s:type
-let g:terminal_color_13 = s:const
-let g:terminal_color_14 = s:fg4
-let g:terminal_color_15 = s:comment
+if has('nvim')
+    let g:terminal_color_0 = s:bg
+    let g:terminal_color_1 = s:warning
+    let g:terminal_color_2 = s:keyword
+    let g:terminal_color_3 = s:bg4
+    let g:terminal_color_4 = s:var
+    let g:terminal_color_5 = s:builtin
+    let g:terminal_color_6 = s:fg3
+    let g:terminal_color_7 = s:str
+    let g:terminal_color_8 = s:bg2
+    let g:terminal_color_9 = s:warning
+    let g:terminal_color_10 = s:fg2
+    let g:terminal_color_11 = s:var
+    let g:terminal_color_12 = s:type
+    let g:terminal_color_13 = s:const
+    let g:terminal_color_14 = s:fg4
+    let g:terminal_color_15 = s:comment
+endif
 
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin' ctermfg='s:c_builtin
