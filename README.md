@@ -10,6 +10,8 @@ Screenshot(with no true colors)
 
 <img src="https://i.postimg.cc/bwgsh30T/screenshot-notruecolors.png"></img>
 
+Screenshot(with true colors)
+
 <img src="https://i.postimg.cc/RhTzHbZp/screenshot-withtruecolors.png"></img>
 
 ## TODO
